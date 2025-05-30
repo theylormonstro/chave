@@ -3,7 +3,6 @@ export default {
   content: [
     './index.html',
     './src/**/*.{js,ts,jsx,tsx}',
-    './**/*.{js,ts,jsx,tsx}'
   ],
   theme: {
     extend: {
@@ -24,7 +23,7 @@ export default {
         sans: ['Inter', 'sans-serif'],
       },
       animation: {
-        'bounce': 'bounce 2s infinite',
+        bounce: 'bounce 2s infinite',
       },
       keyframes: {
         bounce: {
