@@ -37,4 +37,8 @@ export default {
     },
   },
   plugins: [],
+<<<<<<< HEAD
 }
+=======
+};
+>>>>>>> 958cfd43570b6f77a2570adfbe94b31530f17ecb

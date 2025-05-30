@@ -1,6 +1,9 @@
 import React from 'react';
+<<<<<<< HEAD
 import Button from './Button';
 import { CheckCircle, ShieldCheck, Zap, Award } from 'lucide-react';
+=======
+>>>>>>> 958cfd43570b6f77a2570adfbe94b31530f17ecb
 
 interface OfferProps {
   onAccept: () => void;
@@ -8,6 +11,7 @@ interface OfferProps {
 
 const Offer: React.FC<OfferProps> = ({ onAccept }) => {
   return (
+<<<<<<< HEAD
     <div className="min-h-screen flex flex-col items-center justify-center px-4 md:px-8 py-16">
       <div className="max-w-3xl w-full space-y-8">
         {/* Header */}
@@ -135,8 +139,27 @@ const Offer: React.FC<OfferProps> = ({ onAccept }) => {
           </div>
         </div>
       </div>
+=======
+    <div className="min-h-screen flex flex-col items-center justify-center p-8 bg-black text-white text-center">
+      <h2 className="text-3xl md:text-4xl font-bold mb-4">
+        Você está a um clique do método 🔥
+      </h2>
+      <p className="text-lg text-gray-300 max-w-xl mb-8">
+        Descubra como transformar Reels em receita com um plano simples, direto e anônimo.
+      </p>
+      <button
+        onClick={onAccept}
+        className="bg-green-600 hover:bg-green-700 text-white font-semibold py-3 px-6 rounded transition duration-300"
+      >
+        Quero acessar agora
+      </button>
+>>>>>>> 958cfd43570b6f77a2570adfbe94b31530f17ecb
     </div>
   );
 };
 
+<<<<<<< HEAD
 export default Offer;
+=======
+export default Offer;
+>>>>>>> 958cfd43570b6f77a2570adfbe94b31530f17ecb
